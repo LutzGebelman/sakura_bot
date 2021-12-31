@@ -1,0 +1,6 @@
+{
+    "credentials": {
+        "ds_token": "discord bot token here",
+        "giphy_api_key": "Giphy API key here"        
+    }
+}

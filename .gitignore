@@ -1,0 +1,8 @@
+.vscode/
+*.ipynb
+*.db
+__pycache__/
+env/
+pycord-master/
+*.sql
+config.json
