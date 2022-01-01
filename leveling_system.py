@@ -25,7 +25,7 @@ class LevelingSystem():
                 VALUES(
                     '{user.id}',
                     0,
-                    0
+                    1
                 );
                 ''')
         data = self._get_level(user)

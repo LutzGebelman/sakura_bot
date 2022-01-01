@@ -76,6 +76,8 @@ class DiscordCommands(commands.Cog):
         /ban -- ban member
         /unban -- unban member
         /kick -- kick member
+        /my_level -- Will return your level
+        /my_xp -- Will return your XP
         '''
         embed = discord.Embed(description = text, color = Color.purple())
         await ctx.response.send_message(embed=embed)
