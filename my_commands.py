@@ -74,6 +74,7 @@ class DiscordCommands(commands.Cog):
         text = f'''
         Hello there! My name is sakura. All my commands are slashable 
         I have these commands:
+        /listgames -- Will return list of games with ratings and descriptions
         /giphy -- fetches random gif of your choice from internet
         /ban -- ban member
         /unban -- unban member
