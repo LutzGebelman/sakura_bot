@@ -1,10 +1,12 @@
 import discord
+from discord import embeds
 from discord.colour import Color
 from discord.commands.context import ApplicationContext
 from discord.ext import commands
 from discord.member import User as MemberUser
 from giphy_api import GiphyApi
 from leveling_system import LevelingSystem
+from embade_generator import get_embeds
 
 class DiscordCommands(commands.Cog):
     def __init__(self, bot: commands.Bot, ls: LevelingSystem) -> None:
@@ -12,10 +14,11 @@ class DiscordCommands(commands.Cog):
         self.ls = ls
         self.giphy_session = GiphyApi()
 
-    # @commands.slash_command()
-    # async def listgames(self, ctx: ApplicationContext):
-    #     response = ctx.response
-    #     await response.send_message("Fuck you")
+    @commands.slash_command()
+    async def listgames(self, ctx: ApplicationContext):
+        ctx.send()
+        my_embeds = get_embeds()
+        await ctx.response.send_message(embeds=my_embeds)
 
     @commands.slash_command(description="Will return you random gif from the internet by query. Powered by giphy")
     async def giphy(self, ctx: ApplicationContext, query: str):

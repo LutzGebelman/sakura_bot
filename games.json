@@ -1,0 +1,59 @@
+{
+    "Games": [
+        {
+            "Title": "Brawl Stars",
+            "Description": "Hate this one",
+            "Link": "https://play.google.com/store/apps/details?id=com.supercell.brawlstars",
+            "Image": "https://play-lh.googleusercontent.com/EiElcSrd6-o-19roiswSx0AZPzsq6qF3hUGHsSWDl5UVtj7G23DHkneM8ucwqyOmEg=s180-rw",
+            "Rating": 0
+        },
+
+        {
+            "Title": "Plants vs Zombies",
+            "Description": "Best mobile office game of all time",
+            "Link": "https://play.google.com/store/apps/details?id=com.ea.game.pvzfree_row",
+            "Image": "https://play-lh.googleusercontent.com/Ze2zQvotGvXDe8yBHXzEXsom6UUe_xvPadoivBzniGzNA31lYWhUYpvUQBb2GFKtvTo=s180-rw",
+            "Rating": 5
+        },
+
+        {
+            "Title": "Minecraft",
+            "Description": "Blocks, blocks are everythere",
+            "Link": "https://www.minecraft.net/ru-ru",
+            "Image": "https://www.minecraft.net/etc.clientlibs/minecraft/clientlibs/main/resources/img/menu/menu-buy.gif",
+            "Rating": 4
+        },
+
+        {
+            "Title": "For honor",
+            "Description": "Best fighting game of all time",
+            "Link": "https://store.steampowered.com/app/304390/FOR_HONOR/",
+            "Image": "https://cdn.akamai.steamstatic.com/steam/apps/304390/capsule_616x353.jpg?t=1639069087",
+            "Rating": 5
+        },
+
+        {
+            "Title": "Forza Horizon 5",
+            "Description": "Nice arcade racing game",
+            "Link": "https://store.steampowered.com/app/1551360/Forza_Horizon_5/",
+            "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1551360/capsule_616x353.jpg?t=1640881911",
+            "Rating": 4
+        },
+        
+        {
+            "Title": "Insurgency Sandstorm",
+            "Description": "My favorite shooter",
+            "Link": "https://store.steampowered.com/app/581320/Insurgency_Sandstorm/",
+            "Image": "https://cdn.akamai.steamstatic.com/steam/apps/581320/capsule_616x353.jpg?t=1640087078",
+            "Rating": 5
+        },
+
+        {
+            "Title": "Sims 4",
+            "Description": "My girlfrand's favored game",
+            "Link": "https://store.steampowered.com/app/1222670/The_Sims_4/",
+            "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1222670/capsule_616x353.jpg?t=1638471912",
+            "Rating": 3
+        }
+    ]
+}
