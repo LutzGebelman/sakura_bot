@@ -1,4 +1,6 @@
 # Sakura Bot
+You can invite the bot by clicking on [this link](https://discord.com/oauth2/authorize?client_id=395618931932528671&permissions=274877910022&scope=bot%20applications.commands "Invite the bot")
+
 This is my Discord bot made for job interview by Lutz Gebelman.
 All her commands are slashable and have good description, so you won't be lost while using it.
 It can ban, unban, kick people
