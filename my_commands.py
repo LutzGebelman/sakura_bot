@@ -14,9 +14,8 @@ class DiscordCommands(commands.Cog):
         self.ls = ls
         self.giphy_session = GiphyApi()
 
-    @commands.slash_command()
+    @commands.slash_command(description="Will return list of games with ratings and descriptions")
     async def listgames(self, ctx: ApplicationContext):
-        ctx.send()
         my_embeds = get_embeds()
         await ctx.response.send_message(embeds=my_embeds)
 
