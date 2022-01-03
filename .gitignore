@@ -1,3 +1,4 @@
+.gitignore
 .vscode/
 *.ipynb
 *.db
@@ -6,3 +7,4 @@ env/
 pycord-master/
 *.sql
 config.json
+*.docx
